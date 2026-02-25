@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://root:root>@savesome.uva7hsb.mongodb.net/?appName=SaveSome")
+MONGO_URI = os.getenv("MONGO_URI")
 
 
 # ── Sample Staff Data ────────────────────────────────────────
